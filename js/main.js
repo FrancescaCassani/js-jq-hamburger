@@ -7,7 +7,11 @@ bottone.click( function () {
 })
 
 
+var chiusura = $(".hamburger-menu > a");
 
+chiusura.click( function () {
+    $(".hamburger-menu").hide();
+})
 
 
 
