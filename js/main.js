@@ -1,13 +1,14 @@
 /**MOSTRARE / NASCONDERE ELEMENTI */
 
-var lista = $(".header-right");
+var bottone = $(".header-right > a");
 
-lista.click( function () {
-    $("ul").show();
-    lista.click( function () {
-        $("ul").hide(); 
-    })
+bottone.click( function () {
+    $(".hamburger-menu").show();
 })
+
+
+
+
 
 
 
